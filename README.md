@@ -1,7 +1,7 @@
 
 # 🎓 Student Performance Prediction using PyTorch
 
-This project demonstrates how deep learning techniques can be applied to predict student outcomes using **real-time educational data** collected from *New Integrated Govt. School, Ramnagar-II*. Using PyTorch, we build and evaluate a custom neural network model that takes in key academic features to predict student performance.
+This project demonstrates how deep learning techniques can be applied to predict student outcomes using **real-time educational data** collected from **New Integrated Govt. School, Ramnagar-II**. Using PyTorch, we build and evaluate a custom neural network model that takes in key academic features to predict student performance.
 
 ---
 
@@ -38,7 +38,7 @@ self.out = nn.Linear(2, 1)
 
 ## ⚙️ Training Pipeline
 
-1. Data preprocessing (date formatting, dropping irrelevant columns, feature normalization)
+1. Data preprocessing (date formatting, dropping irrelevant columns, feature Standerization)
 2. Splitting data into training and test sets
 3. Custom PyTorch dataset and dataloader creation
 4. Model training using mini-batches
